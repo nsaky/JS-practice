@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 194, 194);
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    cursor: none;
+}
+
+h1{
+    font-size: 8rem;
+}
+
+main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor{
+    background-color: rgb(255, 194, 194);
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    position: absolute;
+    left: -3rem;
+    top: -3rem;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+}
