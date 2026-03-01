@@ -15,6 +15,9 @@ body{
 h1{
     font-size: 8rem;
 }
+p{
+    text-align: center;
+}
 
 main{
     position: relative;
