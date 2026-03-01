@@ -23,7 +23,7 @@ img.addEventListener("dblclick", (dets)=>{
         heart.style.opacity=0;
         heart.style.transform="translate(-50%, -100%) scale(0) rotate(-60deg)"
         // heart.style.transition= "none"
-    }, 700)
+    }, 600)
 })
 
 
